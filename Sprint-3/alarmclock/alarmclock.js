@@ -3,7 +3,7 @@ const timeRemaining = document.getElementById("timeRemaining"); // Assuming the 
 const button = document.getElementById("set"); // Assuming the button element is named "set"
 const stopButton = document.getElementById("stop"); // Assuming the button element is named "stop"
 
-let alarmTime; // declaring a Variable to store the alarm time
+let alarmTime; // declaring a Variable to store the alarm time.
 
 function setAlarm() {
   const alarmTimeInput = parseInt(typedInput.value); // Getting the value from the input field and converting it to an integer

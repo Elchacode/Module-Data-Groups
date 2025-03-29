@@ -20,7 +20,7 @@ function setAlarm() {
   alarmTime = setInterval(() => {
     // setInterval method is used to repeatedly call a function that will delay the alarm until the remaining time gets to 0.
 
-    remainingTime--; // decrementing the remaining time by 1
+    remainingTime--; // decrementing the remaining time by 1.
 
     timeRemaining.textContent = `Time Remaining: ${formatTime(remainingTime)}`; // this would display the remaining time on the screen using a time formatting function.
 
